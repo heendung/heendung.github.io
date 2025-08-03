@@ -10,16 +10,11 @@ profile:
   image: prof_pic.jpg
   image_circular: true
 
-news: true  # includes a list of news items
-experience: false # includes a list of experience items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
+work: true # includes a list of works
 ---
 
 <br>
 I am a Research Scientist at <a href="https://research.adobe.com/">Adobe Research</a>. I earned my Ph.D. in Computer Science and Engineering from The Ohio State University, advised by [Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao/). My research interests include AI agents, with a recent focus on **computer-use** and **GUI agents**. I am also interested in **multimodal understanding** and **generation** for long-form content such as documents or textbooks. Feel free to contact me at [jkil@adobe.com](mailto:jkil@adobe.com) for university collaborations and internships.
-
-##### Work
-<a href="https://research.adobe.com/">Adobe Research</a> -- Research Scientist (2024 - present) <br>
-<a href="https://www.amazon.science/publications">Amazon</a> -- Research Intern (2023) <br>
-<a href="https://deepmind.google/">Google Research (now DeepMind)</a> -- Research Intern (2022) <br>

@@ -39,16 +39,16 @@ layout: default
       {% include experience.html %}
     {% endif %}
 
+    {% if page.work %}
+      {% include work.html %}
+    {% endif %}
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.papers_gui_agent %}
-      {% include papers_gui_agent.html %}
     {% endif %}
 
     {% if page.social %}
