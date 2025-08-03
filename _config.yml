@@ -89,6 +89,11 @@ disqus_shortname:  # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  experience:
+    defaults:
+      layout: post
+    output: true
+    permalink: /experience/:path/
   news:
     defaults:
       layout: post
@@ -96,13 +101,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
-
-  experience:
-    defaults:
-      layout: post
-    output: true
-    permalink: /experience/:path/ 
+    permalink: /projects/:path/ 
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit:  # leave blank to include all the news in the `_news` folder

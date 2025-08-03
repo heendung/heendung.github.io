@@ -228,6 +228,21 @@ blockquote {
   color: var(--global-text-color);
 }
 
+
+// Experience
+
+.experience table td {
+  font-size: 0.85rem;
+  padding-bottom: 0.1rem;
+  color: var(--global-text-color);
+}
+
+.experience table th {
+  font-size: 0.8rem;
+  padding-bottom: 0.1rem;
+  color: var(--global-text-color);
+}
+
 // Social (bottom)
 
 .social {
@@ -479,9 +494,16 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
       
-      // .periodical {
-      //   font-weight: bolder;
-      // }
+      .pub-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem; // spacing between journal and links
+      }
+      .periodical {
+        color: black;
+        //font-style: italic;
+      }
 
       .author {
         a {
@@ -583,4 +605,19 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+.links {
+  //font-style: italic;
+  a {
+    color: grey;
+
+    &:hover {
+      color: grey; // Optional: hover color
+    }
+
+    &:visited {
+      color: grey; // Optional: visited link color
+    }
+  }
 }
